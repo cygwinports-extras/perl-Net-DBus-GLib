@@ -1,0 +1,62 @@
+perl-Net-DBus-GLib
+------------------------------------------- 
+Net::DBus::GLib provides a Perl XS API to the dbus glib bindings.
+Currently it performs integration with the glib main loop context.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  libdbus-glib_1_2-0.74-1
+  perl-5.10.0-1
+  perl-Glib-1.164-1
+  perl-Net-DBus-0.33.6-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20060817-1
+  cygport-0.3.9-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.21-1
+
+Canonical homepage:
+  http://search.cpan.org/~danberr/Net-DBus/
+
+Canonical download:
+  http://www.cpan.org/authors/id/D/DA/DANBERR/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Net-DBus-GLib-0.33.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Net-DBus-GLib-0.33.0-X.cygport all
+
+This will create:
+  /usr/src/perl-Net-DBus-GLib-0.33.0-X-src.tar.bz2
+  /usr/src/perl-Net-DBus-GLib-0.33.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Net/DBus/GLib.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Net/DBus/GLib/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Net/DBus/GLib/GLib.dll
+  /usr/share/doc/perl-Net-DBus-GLib-0.33.0/AUTHORS
+  /usr/share/doc/perl-Net-DBus-GLib-0.33.0/Changes
+  /usr/share/doc/perl-Net-DBus-GLib-0.33.0/LICENSE
+  /usr/share/doc/perl-Net-DBus-GLib-0.33.0/README
+  /usr/share/man/man3/Net.DBus.GLib.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.33.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
