@@ -1,5 +1,5 @@
 category: Perl
-requires: cygwin libdbus-glib_1_2 perl perl-Glib perl-Net-DBus
+requires: libdbus-glib_1_2 perl perl-Glib perl-Net-DBus
 sdesc: "Perl bindings for DBus Glib bindings"
 ldesc: "Net::DBus::GLib provides a Perl XS API to the dbus glib bindings.
 Currently it performs integration with the glib main loop context."
